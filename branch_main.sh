@@ -8,7 +8,8 @@ REPO_NAME="private-repo"
 # Clone the repository locally using the GitHub API
 #git clone "https://github.com/$GITHUB_USERNAME/$REPO_NAME.git"
 #git remote set-url origin git@github.com:{BrendaMohan}/{private-repo}.git
-git remote add origin git@github.com:BrendaMohan/private-repo.git
+#git remote add origin git@github.com:BrendaMohan/private-repo.git
+git clone git@github.com:BrendaMohan/private-repo.git
 cd "$REPO_NAME"
 
 # Set the Git configuration to use the provided access token
