@@ -3,7 +3,7 @@
 # Replace these variables with your GitHub username and access token
 GITHUB_USERNAME="BrendaMohan"
 GITHUB_ACCESS_TOKEN="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"
-REPO_NAME="private_repo"
+REPO_NAME="private-repo"
 
 # Clone the repository locally using the GitHub API
 git clone "https://github.com/$GITHUB_USERNAME/$REPO_NAME.git"
