@@ -1,7 +1,10 @@
 #!/bin/bash
+
+#Function to notify approvers via email
+
 notify_approvers() {
 
-python3 - <<END
+    python3 - <<END
 
 import smtplib
 
@@ -19,7 +22,7 @@ def send_email(subject, body):
 
  
 
-     msg = MIMEText(body)
+    msg = MIMEText(body)
 
     msg['Subject'] = subject
 
@@ -31,30 +34,32 @@ def send_email(subject, body):
 
     try:
 
-       server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
+        server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 
-       server.login(sender_email, sender_password)
+        server.login(sender_email, sender_password)
 
-       server.sendmail(sender_email, receiver_emails, msg.as_string())
+        server.sendmail(sender_email, receiver_emails, msg.as_string())
 
         server.quit()
 
         print("Email notification sent successfully.")
 
-        except Exception as e:
+    except Exception as e:
 
-         print("Error sending email notification:", str(e))
+        print("Error sending email notification:", str(e))
 
  
 
- if __name__ == "__main__":
+if __name__ == "__main__":
 
-     subject = "Pull Request Approval Required"
+    subject = "Pull Request Approval Required"
 
-     body = "Dear Approvers,\n\nA new pull request requires your approval.\n\nPlease review the changes and approve the pull request.\n\nBest Regards,\nAutomated GitHub Bot"
+    body = "Dear Approvers,\n\nA new pull request requires your approval.\n\nPlease review the changes and approve the pull request.\n\nBest Regards,\nAutomated GitHub Bot"
 
-     send_email(subject, body)
+    send_email(subject, body)
 
- END
+END
+
 }
- 
+
+notify_approvers
