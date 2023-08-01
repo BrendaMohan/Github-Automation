@@ -18,7 +18,7 @@ check_repo_existence() {
 
 # Function to create a private repository
 create_github_repository() {
-    curl -X POST -H "Authorization: token $GITHUB_ACCESS_TOKEN" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/user/repos" -d "{\"name\":\"$REPO_NAME\", \"private\": true}"
+    curl -X POST -H "Authorization: token $GITHUB_ACCESS_TOKEN" -H "Accept: application/vnd.github.v3+json" "https://api.github.com/user/repos" -d "{\"name\":\"$REPO_NAME\", \"private\": true, \"auto_init\": true }"
 }
 
 # Main script
