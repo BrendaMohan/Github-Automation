@@ -1,13 +1,9 @@
 #!/bin/bash
 
-# Replace these variables with your GitHub username and access token
-#GITHUB_USERNAME="BrendaMohan"
-#GITHUB_ACCESS_TOKEN="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"
-#REPO_NAME="private-repo"
 GITHUB_USERNAME="BrendaMohan"
 GITHUB_TOKEN="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"
 REPO_OWNER="BrendaMohan"
-REPO_NAME="private-repo"
+REPO_NAME="AODevSecOps.CYA.CYA-Brenda"
 MAIN_BRANCH="main"
 FEATURE_BRANCH="feature"
 
