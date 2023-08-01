@@ -56,5 +56,5 @@ def send_email(subject, body):
      send_email(subject, body)
 
  END
-
+}
  
