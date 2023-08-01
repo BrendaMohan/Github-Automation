@@ -16,7 +16,7 @@ def send_email(subject, body):
 
     sender_email = "mohanbrenda@gmail.com"  # Replace with your email address
 
-    sender_password = "brey0naephron"  # Replace with your email password
+    sender_password = "breyonaephron"  # Replace with your email password
 
     receiver_emails = ["mohanbrenda@gmail.com"]
 
