@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Github_Automation_1691066123217-pr-trigger-input-set
+  identifier: Build_Github_Automation_1691066123217prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Automation_shellscript
+  pipeline:
+    identifier: Build_Github_Automation_1691066123217
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
