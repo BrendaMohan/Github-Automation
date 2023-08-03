@@ -3,7 +3,7 @@
 # Replace these variables with your GitHub username and access token
 GITHUB_USERNAME="BrendaMohan"
 GITHUB_ACCESS_TOKEN="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"
-REPO_NAME="AODevSecOps.CYA.CYA-Brenda"
+REPO_NAME="New"
 
 # Function to check if the repository exists
 check_repo_existence() {
