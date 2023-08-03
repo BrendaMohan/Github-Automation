@@ -3,7 +3,7 @@
 GITHUB_USERNAME="BrendaMohan"
 GITHUB_TOKEN="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"
 REPO_OWNER="BrendaMohan"
-REPO_NAME="Frozen"
+REPO_NAME="Frozen1"
 MAIN_BRANCH="main"
 FEATURE_BRANCH="feature"
 
