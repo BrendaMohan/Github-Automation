@@ -3,7 +3,7 @@
 # Replace these variables with your GitHub username and access token
 GITHUB_USERNAME="BrendaMohan"
 GITHUB_ACCESS_TOKEN="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"
-REPO_NAME="Frozen"
+REPO_NAME="Frozen1"
 FEATURE_BRANCH="feature"
 
 # Create a pull request
