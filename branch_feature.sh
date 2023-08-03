@@ -3,7 +3,7 @@
 GITHUB_USERNAME="BrendaMohan"
 GITHUB_TOKEN="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"
 REPO_OWNER="BrendaMohan"
-REPO_NAME="AODevSecOps.CYA.CYA-Brenda"
+REPO_NAME="Frozen"
 MAIN_BRANCH="main"
 FEATURE_BRANCH="feature"
 
